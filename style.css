@@ -1,0 +1,8 @@
+.active{border:solid 2px black; padding: 3em; }
+.wrapper div{border: solid 2px black; padding: 1px; margin: 20px; width: 200px; height: 150px;}
+.wrapper nav{border: solid 2px black; padding: 50px;}
+.wrapper{display: grid ; grid-template-columns: 1fr 1fr 1fr 1fr ; grid-template-rows: 1fr 1fr 1fr 1fr; gap: 50px 50px;;}
+.item{grid-column-start: 1; grid-column-end: 1; grid-row-start:1;grid-row-end:6; width: 150px;}
+#apple{grid-column-start: 1; grid-column-end: 1; grid-row-start:1;grid-row-end:6; width: 200px; height: 50px;}
+#apple2{grid-column-start: 1; grid-column-end: 1; grid-row-start:2;grid-row-end:6; width: 200px; height: 50px;margin-top: -140px;}
+#apple3{grid-column-start: 1; grid-column-end: 1; grid-row-start:3;grid-row-end:6; width: 200px; height: 50px;margin-top: -300px;}
